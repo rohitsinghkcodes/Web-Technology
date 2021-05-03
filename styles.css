@@ -20,7 +20,7 @@ body{
 }
 .ans{
     
-    color: rgb(05, 57, 107);
+    color: rgb(0, 50, 97);
     padding: 1px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -38,5 +38,25 @@ body{
   }
 
   .head{
-      color: rgb(107, 5, 82);
+      color: rgb(102, 0, 77);
+  }
+  table, th, td {
+    border: 2px solid rgb(1, 24, 46);;
+    border-collapse: collapse;
+    border-radius: 80px;
+  }
+  table{
+      margin-left: 10%;
+      margin-bottom: 25px;
+  }
+  td,th{
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+      padding: 12px;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  th{
+      color:  rgb(107, 5, 82);
   }
