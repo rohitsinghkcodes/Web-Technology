@@ -16,6 +16,7 @@ body{
     margin-bottom: 4px;
     background-color: rgb(05, 57, 107);
     /* border-radius: 20px; */
+    /* Made by rohisinghkcodes */
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     
@@ -86,6 +87,21 @@ body{
     border-top-left-radius: 20px;
   }
 
-  h3{
-      text-align: center;
+  /* tooltip */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
