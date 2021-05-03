@@ -1,0 +1,42 @@
+
+h1{
+    text-align: center;
+
+}
+body{
+    background-color: #139279;
+    margin: 20px;
+}
+.ques{
+    color: #EDF5E1;
+    padding: 1px;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    background-color: rgb(05, 57, 107);
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.ans{
+    
+    color: rgb(05, 57, 107);
+    padding: 1px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: #5CDB95;
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .head{
+      color: rgb(107, 5, 82);
+  }
