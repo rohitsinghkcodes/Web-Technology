@@ -1,107 +1,117 @@
+h1 {
+  text-align: center;
+  font-family: "Ultra", serif;
+  color: rgb(1, 80, 155);
+}
+body {
+  background-color: #131c21;
+  margin: 30px;
+}
+.ques {
+  color: #edf5e1;
+  padding: 1px;
+  padding-left: 20px;
+  margin-bottom: 4px;
+  background-color: rgb(05, 57, 107);
+  /* border-radius: 20px; */
+  /* Made by rohisinghkcodes */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.ans {
+  color: rgb(38, 38, 39);
+  padding: 1px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: #00b79e;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 600px;
+  overflow-y: scroll;
+}
 
-h1{
-    text-align: center;
-    font-family: 'Ultra', serif;
-    color: rgb(1, 80, 155);
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.head {
+  color: rgb(102, 0, 77);
 }
-body{
-    background-color: #131C21;
-    margin: 20px;
+table,
+th,
+td {
+  border: 2px solid rgb(1, 24, 46);
+  border-collapse: collapse;
+  border-radius: 80px;
 }
-.ques{
-    color: #EDF5E1;
-    padding: 1px;
-    padding-left: 20px;
-    margin-bottom: 4px;
-    background-color: rgb(05, 57, 107);
-    /* border-radius: 20px; */
-    /* Made by rohisinghkcodes */
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    
+table {
+  margin-left: 10%;
+  margin-bottom: 25px;
 }
-.ans{
-    
+td,
+th {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+th {
+  color: rgb(107, 5, 82);
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn {
+  background-color: rgb(4, 77, 145);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: rgb(7, 85, 72);
+}
+.tt {
+  text-align: center;
+  color: #edf5e1;
+  padding: 1px;
+  padding-left: 20px;
+  margin-bottom: 4px;
+  background-color: rgb(05, 57, 107);
+  /* border-radius: 20px; */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.tt2 {
     color: rgb(38, 38, 39);
     padding: 1px;
     padding-left: 20px;
     margin-bottom: 20px;
-    background-color: #00B79E;
-    /* border-radius: 20px; */
+    background-color: #00b79e;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;;
+  }
+
+/* tooltip */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: rgba(255, 255, 255, 0.637);
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  .head{
-      color: rgb(102, 0, 77);
-  }
-  table, th, td {
-    border: 2px solid rgb(1, 24, 46);;
-    border-collapse: collapse;
-    border-radius: 80px;
-  }
-  table{
-      margin-left: 10%;
-      margin-bottom: 25px;
-  }
-  td,th{
-      font-size: 18px;
-      text-align: center;
-      font-weight: 600;
-      padding: 12px;
-      padding-left: 25px;
-      padding-right: 25px;
-  }
-  th{
-      color:  rgb(107, 5, 82);
-      font-size: 20px;
-      font-weight: 700;
-  }
-  .btn{
-      background-color: rgb(4, 77, 145);
-      padding: 15px;
-      border-radius: 15px;
-      color: white;
-      font-weight: 600;
-  }
-  .btn:hover{
-      background-color: rgb(7, 85, 72);
-  }
-  .tt{
-      text-align: center;
-    color: #EDF5E1;
-    padding: 1px;
-    padding-left: 20px;
-    margin-bottom: 4px;
-    background-color: rgb(05, 57, 107);
-    /* border-radius: 20px; */
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-  }
-
-  /* tooltip */
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: rgba(0, 0, 0, 0.623);
-    color: rgba(255, 255, 255, 0.637);
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
