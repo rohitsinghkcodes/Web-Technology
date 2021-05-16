@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-family: "Ultra", serif;
-  color: rgb(1, 80, 155);
+  color: rgba(180, 184, 184, 0.541);
 }
 body {
   background-color: #131c21;
@@ -13,8 +13,6 @@ body {
   padding-left: 20px;
   margin-bottom: 4px;
   background-color: rgb(05, 57, 107);
-  /* border-radius: 20px; */
-  /* Made by rohisinghkcodes */
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -114,4 +112,18 @@ th {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+
+/* Home Page */
+.assign {
+  background-color: rgba(145, 4, 115, 0.288);
+  font-size: 20px;
+  padding: 15px;
+  width: 49%;
+  height: 300px;
+  float: left;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
 }
