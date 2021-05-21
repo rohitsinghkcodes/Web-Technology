@@ -14,9 +14,9 @@ body{
 
 
 .wrapper .sidebar h2{
-    color: #fff;
+    color: rgba(245, 245, 245, 0.418);
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     margin-left: 15px;
     font-size: 25px;
     line-height: 20px;
@@ -33,7 +33,7 @@ body{
 
 .wrapper .sidebar li a{
     
-    color: #bdb8d7;
+    color: #b0afb4;
     display: block;
 }
 
@@ -51,7 +51,7 @@ body{
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Reggae One', cursive;
 }
 .wrapper .main_content .info{
     margin: 20px;
@@ -61,7 +61,7 @@ body{
 
 .wrapper .main_content .info .ques {
     color: #edf5e1;
-    padding: 15px;
+    padding: 5px;
     padding-left: 20px;
     background-color: #4b4276;
     border-top-right-radius: 20px;
@@ -69,7 +69,7 @@ body{
   }
   .wrapper .main_content .info .ans {
     color: rgb(180, 180, 185);
-    padding-top: 35px;
+    padding-top: 20px;
     padding-right: 15px;
     padding-left: 20px;
     background-color: #282842a9;
@@ -130,17 +130,19 @@ th {
 
 /* for time table */
 .tt {
-  
-  font-family: 'Josefin Sans', sans-serif;
+
   text-align: center;
   color: #b4b4b9;
-  padding: 20px;
-  padding-left: 20px;
+  padding: 10px;
   margin-bottom: 4px;
   background-color: #4b4276;;
   /* border-radius: 20px; */
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+}
+.tt h3{
+  font-family: 'Reggae One', cursive;
+  font-size: 20px;
 }
 
 .tt2 {
